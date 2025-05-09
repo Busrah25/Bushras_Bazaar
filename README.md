@@ -22,5 +22,4 @@ Bushra's_Bazaar/
 ├── Product.cpp / .hpp
 ├── Tobacco.cpp / .hpp
 ├── LotteryTickets.cpp / .hpp
-├── Inventory.txt
-└── Bushra's_Bazaar.docx
+└── Inventory.txt
