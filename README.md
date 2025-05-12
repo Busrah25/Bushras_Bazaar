@@ -1,25 +1,48 @@
-# Bushra's Bazaar
+# 🧾 Bushra's Bazaar
 
-A C++ object-oriented inventory management system developed in Xcode. The application simulates a mini-market system for managing products like **tobacco** and **lottery tickets**, using class inheritance, file I/O, and modular design.
+**Bushra's Bazaar** is a C++ object-oriented inventory management system that simulates a mini-market setup. It allows users to manage products such as **tobacco** and **lottery tickets** through a modular and scalable design using class inheritance, file I/O, and clean architecture.
 
-## 🛠 Features
+---
+
+## ✨ Features
+
 - Product class hierarchy: `Product`, `Tobacco`, `LotteryTickets`
-- Inventory management with `InventoryManager`
-- File I/O using `Inventory.txt`
-- Terminal-based testing
+- Inventory tracking via `InventoryManager`
+- File I/O with `Inventory.txt`
+- Terminal-based interaction and testing
 - Designed for modularity and scalability
 
-## 💡 Key Concepts
+---
+
+## 🧠 Key Concepts
+
 - Object-Oriented Programming (OOP)
 - Inheritance and Encapsulation
-- C++ File Input/Output
+- C++ File Input/Output (fstreams)
 - Clean class structure and separation of concerns
 
-## 📁 File Structure
-Bushra's_Bazaar/
+---
+
+## 🗂️ File Structure
+
+Bushras_Bazaar/
 ├── main.cpp
 ├── InventoryManager.cpp / .hpp
 ├── Product.cpp / .hpp
 ├── Tobacco.cpp / .hpp
 ├── LotteryTickets.cpp / .hpp
-└── Inventory.txt
+├── Inventory.txt
+
+---
+
+## 🎯 Purpose
+
+This project was built to showcase foundational C++ concepts like class inheritance, encapsulation, and modular design. It simulates a real-world inventory system suitable for academic demonstration and beginner-level system modeling.
+
+---
+
+## 👩‍💻 Author
+
+**Bushra Ahmed**  
+📧 [busrahkhanom25@gmail.com](mailto:busrahkhanom25@gmail.com)  
+🔗 [LinkedIn](https://linkedin.com/in/busrah) • [GitHub](https://github.com/Busrah25)
