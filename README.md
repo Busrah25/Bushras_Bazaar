@@ -1,10 +1,10 @@
-# 🧾 Bushra's Bazaar
+# Bushra's Bazaar
 
 **Bushra's Bazaar** is a C++ object-oriented inventory management system that simulates a mini-market setup. It allows users to manage products such as **tobacco** and **lottery tickets** through a modular and scalable design using class inheritance, file I/O, and clean architecture.
 
 ---
 
-## ✨ Features
+##  Features
 
 - Product class hierarchy: `Product`, `Tobacco`, `LotteryTickets`
 - Inventory tracking via `InventoryManager`
@@ -14,7 +14,7 @@
 
 ---
 
-## 🧠 Key Concepts
+## Key Concepts
 
 - Object-Oriented Programming (OOP)
 - Inheritance and Encapsulation
@@ -23,7 +23,7 @@
 
 ---
 
-## 🗂️ File Structure
+## File Structure
 
 Bushras_Bazaar/
 ├── main.cpp
@@ -35,13 +35,13 @@ Bushras_Bazaar/
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 This project was built to showcase foundational C++ concepts like class inheritance, encapsulation, and modular design. It simulates a real-world inventory system suitable for academic demonstration and beginner-level system modeling.
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Bushra Ahmed**  
 📧 [busrahkhanom25@gmail.com](mailto:busrahkhanom25@gmail.com)  
