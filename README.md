@@ -1,48 +1,45 @@
-# Bushra's Bazaar
+# Bushra’s Bazaar
 
-**Bushra's Bazaar** is a C++ object-oriented inventory management system that simulates a mini-market setup. It allows users to manage products such as **tobacco** and **lottery tickets** through a modular and scalable design using class inheritance, file I/O, and clean architecture.
+A terminal based inventory management system built in C++ using object oriented programming principles. The project simulates a small scale retail inventory with extensible product categories and persistent storage.
 
----
+## Overview
+Bushra’s Bazaar models a mini market inventory system using class inheritance and file input output. The project emphasizes clean architecture, modular class design, and separation of concerns while remaining suitable for academic demonstration.
 
-##  Features
+## Key Features
+- Product class hierarchy with shared base behavior  
+- Specialized product types using inheritance  
+- Inventory tracking through a manager class  
+- File based persistence using text files  
+- Console driven interaction and testing  
 
-- Product class hierarchy: `Product`, `Tobacco`, `LotteryTickets`
-- Inventory tracking via `InventoryManager`
-- File I/O with `Inventory.txt`
-- Terminal-based interaction and testing
-- Designed for modularity and scalability
+## Technologies Used
+- C++  
+- Object Oriented Programming  
+- File Input and Output  
+- Git and GitHub  
 
----
+## Core Logic
+The system is built around a base Product class extended by specialized product types. InventoryManager coordinates loading, updating, and saving inventory data to a text file. The design allows new product categories to be added without modifying existing logic.
 
-## Key Concepts
-
-- Object-Oriented Programming (OOP)
-- Inheritance and Encapsulation
-- C++ File Input/Output (fstreams)
-- Clean class structure and separation of concerns
-
----
-
-## File Structure
-
+## Project Structure
 Bushras_Bazaar/
 ├── main.cpp
-├── InventoryManager.cpp / .hpp
-├── Product.cpp / .hpp
-├── Tobacco.cpp / .hpp
-├── LotteryTickets.cpp / .hpp
-├── Inventory.txt
+├── InventoryManager.cpp
+├── InventoryManager.hpp
+├── Product.cpp
+├── Product.hpp
+├── Tobacco.cpp
+├── Tobacco.hpp
+├── LotteryTickets.cpp
+├── LotteryTickets.hpp
+└── Inventory.txt
 
----
 
-## Purpose
+## How to Run Locally
+1. Compile all source files using a C++ compiler  
+2. Run the generated executable from the terminal  
 
-This project was built to showcase foundational C++ concepts like class inheritance, encapsulation, and modular design. It simulates a real-world inventory system suitable for academic demonstration and beginner-level system modeling.
-
----
-
-##  Author
-
-**Bushra Ahmed**  
-📧 [busrahkhanom25@gmail.com](mailto:busrahkhanom25@gmail.com)  
-🔗 [LinkedIn](https://linkedin.com/in/busrah) • [GitHub](https://github.com/Busrah25)
+## Future Improvements
+- Input validation and error handling  
+- Support for additional product categories  
+- Transition to a database backed system  
